@@ -5,7 +5,7 @@ Feature: Buy items
 
   @simple
   Scenario: Add item to cart and verify price
-    Given I have launched the website "http://services.smartbear.com/samples/TestComplete12/smartstore/"
+    Given I have launched the website "http://myapp.domain/smartstore/"
     And I have searched for item "Chronograph Watch"
     And I have navigated to the Product page
     When I add the item to the cart
@@ -14,7 +14,7 @@ Feature: Buy items
 
   @datadriven
   Scenario Outline: Add item to cart and verify price (data-driven test)
-    Given I have launched the website "http://services.smartbear.com/samples/TestComplete12/smartstore/"
+    Given I have launched the website "http://myapp.domain/smartstore/"
     And I have searched for item "<item>"
     And I have navigated to the Product page
     When I add the item to the cart

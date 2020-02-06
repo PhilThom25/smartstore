@@ -5,7 +5,7 @@ Feature: Compare items
 
   @simple
   Scenario: Add item to compare list
-    Given I have launched the website "http://services.smartbear.com/samples/TestComplete12/smartstore/"
+    Given I have launched the website "http://myapp.domain/smartstore/"
     And I have searched for item "Chronograph Watch"
     And I have navigated to the Product page
     When I select the item to compare

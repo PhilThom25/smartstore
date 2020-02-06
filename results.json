@@ -1,0 +1,470 @@
+[
+  {
+    "description": "    \"**As a** customer\"\n    \"**I can** search and order items\"\n    \"**In order to** get new goods\"",
+    "keyword": "Feature",
+    "name": "Buy items",
+    "line": 1,
+    "id": "buy-items",
+    "tags": [],
+    "uri": "features/buy_items.feature",
+    "elements": [
+      {
+        "id": "buy-items;add-item-to-cart-and-verify-price",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Add item to cart and verify price",
+        "tags": [
+          {
+            "name": "@simple",
+            "line": 6
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "I have launched the website \"http://myapp.domain/smartstore/\"",
+            "match": {
+              "location": "features/step_definitions.js:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I have searched for item \"Chronograph Watch\"",
+            "match": {
+              "location": "features/step_definitions.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I have navigated to the Product page",
+            "match": {
+              "location": "features/step_definitions.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "I add the item to the cart",
+            "match": {
+              "location": "features/step_definitions.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "the item \"Chronograph Watch\" should be added to cart",
+            "match": {
+              "location": "features/step_definitions.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "price should equal \"$24,110.00\"",
+            "match": {
+              "location": "features/step_definitions.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          }
+        ]
+      },
+      {
+        "id": "buy-items;add-item-to-cart-and-verify-price-(data-driven-test)",
+        "keyword": "Scenario",
+        "line": 26,
+        "name": "Add item to cart and verify price (data-driven test)",
+        "tags": [
+          {
+            "name": "@datadriven",
+            "line": 15
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 17,
+            "name": "I have launched the website \"http://myapp.domain/smartstore/\"",
+            "match": {
+              "location": "features/step_definitions.js:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "I have searched for item \"Soccer Football\"",
+            "match": {
+              "location": "features/step_definitions.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "I have navigated to the Product page",
+            "match": {
+              "location": "features/step_definitions.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "I add the item to the cart",
+            "match": {
+              "location": "features/step_definitions.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "the item \"Soccer Football\" should be added to cart",
+            "match": {
+              "location": "features/step_definitions.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "price should equal \"$59.90\"",
+            "match": {
+              "location": "features/step_definitions.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "buy-items;add-item-to-cart-and-verify-price-(data-driven-test)",
+        "keyword": "Scenario",
+        "line": 27,
+        "name": "Add item to cart and verify price (data-driven test)",
+        "tags": [
+          {
+            "name": "@datadriven",
+            "line": 15
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 17,
+            "name": "I have launched the website \"http://myapp.domain/smartstore/\"",
+            "match": {
+              "location": "features/step_definitions.js:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "I have searched for item \"Airypods\"",
+            "match": {
+              "location": "features/step_definitions.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "I have navigated to the Product page",
+            "match": {
+              "location": "features/step_definitions.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "I add the item to the cart",
+            "match": {
+              "location": "features/step_definitions.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "the item \"Airypods\" should be added to cart",
+            "match": {
+              "location": "features/step_definitions.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "price should equal \"$1,014.00\"",
+            "match": {
+              "location": "features/step_definitions.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "description": "    \"**As a** customer\"\n    \"**I can** select items to compare\"\n    \"**In order to** get the best item\"",
+    "keyword": "Feature",
+    "name": "Compare items",
+    "line": 1,
+    "id": "compare-items",
+    "tags": [],
+    "uri": "features/compare_items.feature",
+    "elements": [
+      {
+        "id": "compare-items;add-item-to-compare-list",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Add item to compare list",
+        "tags": [
+          {
+            "name": "@simple",
+            "line": 6
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "I have launched the website \"http://myapp.domain/smartstore/\"",
+            "match": {
+              "location": "features/step_definitions.js:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I have searched for item \"Chronograph Watch\"",
+            "match": {
+              "location": "features/step_definitions.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I have navigated to the Product page",
+            "match": {
+              "location": "features/step_definitions.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "I select the item to compare",
+            "match": {
+              "location": "features/step_definitions.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "the item \"Chronograph Watch\" should be added to compare list",
+            "match": {
+              "location": "features/step_definitions.js:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "description": "  \"**As a** customer\"\n  \"**I can** choose an item\"\n  \"**In order to** add it to my wish list\"",
+    "keyword": "Feature",
+    "name": "Wish list",
+    "line": 1,
+    "id": "wish-list",
+    "tags": [],
+    "uri": "features/Wish list.feature",
+    "elements": [
+      {
+        "id": "wish-list;add-item-to-wish-list",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Add item to wish list",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I have launched the website \"http://myapp.domain/smartstore/\"",
+            "match": {
+              "location": "features/step_definitions.js:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I have searched for item \"Chronograph Watch\"",
+            "match": {
+              "location": "features/step_definitions.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I have navigated to the Product page",
+            "match": {
+              "location": "features/step_definitions.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "I select the add to wish list option from th item",
+            "match": {
+              "location": "features/step_definitions.js:38"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "the item \"Chronograph Watch\" should be added to wish list",
+            "match": {
+              "location": "features/step_definitions.js:42"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 1000000,
+              "error_message": "AssertionError [ERR_ASSERTION]: false == true\n    + expected - actual\n\n    -false\n    +true\n\n    at World.<anonymous> (/Users/philippethomann/devs/smartstore/features/step_definitions.js:43:10)"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
