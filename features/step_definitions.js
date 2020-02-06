@@ -26,19 +26,19 @@ Then('price should equal {string}', function (string) {
 });
 
 // compare items
-When('I select the item to compare', function () {
-  assert.equal(true,true);
-});
+// When('I select the item to compare', function () {
+//   assert.equal(true,true);
+// });
 
-Then('the item {string} should be added to compare list', function (string) {
-  assert.equal(true,true);
-});
+// Then('the item {string} should be added to compare list', function (string) {
+//   assert.equal(true,true);
+// });
 
 // Wish list
-When('I select the add to wish list option from the item', function () {
-  assert.equal(true,true);
-});
+// When('I select the add to wish list option from the item', function () {
+//   assert.equal(true,true);
+// });
 
-Then('the item {string} should be added to wish list', function (string) {
-  assert.equal(true,true);
-});
+// Then('the item {string} should be added to wish list', function (string) {
+//   assert.equal(false,true);
+// });
